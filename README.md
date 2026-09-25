@@ -11,7 +11,8 @@ Xiao Wei, Bing Tu∗, Jun Li, Yan He, Chao Liu and Antonio Plaza, "Scale-aware p
 </p>
 
 
-**Fig. 1. Overall architecture of the proposed SPDC-Net for joint cloud-property retrieval. The SPGRM progressively injects ERA5-derived physical priors into multi-scale visual features to bridge the cross-scale gap, while the CMG module couples the predicted cloud mask with regression features to confine continuous retrievals to physically valid cloudy regions and suppress spurious clear-sky responses.** 
+**Fig. 1. Overall architecture of the proposed SPDC-Net for joint cloud-property retrieval. The SPGRM progressively injectsERA5-derived physical priors into muli-scale visual features to bridge the cross-scale gap, while the CMG module couples theauxiliary cloud probability with regression features to confine continuous retrievals to physically valid cloudy regions and provide
+a mechanism to limit potential spurious clear-sky responses.** 
 
 
 ## Dependencies
