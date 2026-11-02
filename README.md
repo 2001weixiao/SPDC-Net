@@ -22,7 +22,7 @@ To investigate the impact of principal hyperparameters on SPDC-Net, we conducted
 
 **Evaluation Protocol:** The hyperparameters and the cloud-mask threshold were selected using *only the validation set*. For each run, the best checkpoint and the CSI-optimal cloud-mask threshold were chosen from the validation predictions. The test set was strictly reserved for the final evaluation reported here, and the saved threshold is applied without any further adjustment.
 
-| Factor | Value | COT <br> ($R$/RMSE/MAE/MBE) | CER <br> ($R$/RMSE/MAE/MBE) | CTH <br> ($R$/RMSE/MAE/MBE) | Cloud mask <br> (OA/POD/FAR/CSI) |
+| Factor | Value | COT <br> (R/RMSE/MAE/MBE) | CER <br> (R/RMSE/MAE/MBE) | CTH <br> (R/RMSE/MAE/MBE) | Cloud mask <br> (OA/POD/FAR/CSI) |
 | :--- | :--- | :---: | :---: | :---: | :---: |
 | **Reference model** | $\lambda_{\max}=0.8$<br>$\gamma=0.5$<br>$\boldsymbol{\eta}=(0.4,0.6,0.3)$<br>$\boldsymbol{\alpha}=(1.0,0.7,0.4,0.2,0.1)$ | **0.8241/3.58/1.97/-0.37** | **0.8807/5.33/3.37/-0.12** | **0.9442/1.62/0.84/0.05** | **0.8870/0.9402/0.1613/0.7962** |
 | $\lambda_{\max}$ | 0.4 | 0.8070/3.73/2.09/-0.45 | 0.8664/5.61/3.58/-0.18 | 0.9366/1.73/0.93/0.08 | 0.8878/0.9416/0.1609/0.7976 |
